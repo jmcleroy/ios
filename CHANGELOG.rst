@@ -2,6 +2,14 @@
 ios
 ===============================
 
+v1.1.1
+======
+
+Minor Changes
+-------------
+
+- BUGFIX adds missing lookup plugin `network_template`
+
 v1.1.0
 =======
 
