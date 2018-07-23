@@ -2,6 +2,14 @@
 ios
 ===============================
 
+v1.1.2
+======
+
+Minor Changes
+-------------
+
+- BUGFIX fixes issue when loading multiple devices in one run 
+
 v1.1.1
 ======
 

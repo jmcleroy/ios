@@ -18,6 +18,7 @@
       file:
         path: "{{ ios_config_working_dir }}"
         state: directory
+      run_once: true
 
     - name: template source config
       copy:
@@ -70,6 +71,7 @@
           file:
             path: "{{ ios_config_working_dir }}"
             state: absent
+          run_once: true
 
       rescue:
         - name: remove uploaded configuration
@@ -80,6 +82,7 @@
           file:
             path: "{{ ios_config_working_dir }}"
             state: absent
+          run_once: true
 
         - name: set host failed
           fail:
