@@ -1,6 +1,6 @@
 - hosts: all
 
   roles:
-    - name privateip.ios
+    - name: ios
       function: load_config
-      config_file: files/ios.cfg
+      config_file: "{{ config_file }}"
