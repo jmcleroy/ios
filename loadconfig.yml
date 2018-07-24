@@ -1,6 +1,7 @@
 - hosts: all
+  gather_facts: no
 
   roles:
-    - name: ios
+    - ios
       function: load_config
       config_file: "{{ config_file }}"
