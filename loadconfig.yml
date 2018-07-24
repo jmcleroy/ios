@@ -1,0 +1,6 @@
+- hosts: all
+
+  roles:
+    - name privateip.ios
+      function: load_config
+      config_file: files/ios.cfg
