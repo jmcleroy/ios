@@ -6,4 +6,3 @@
     - name: ios
       function: load_config
       config_file: "{{ config_file }}"
-      replace: true
